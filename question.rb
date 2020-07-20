@@ -1,5 +1,5 @@
 class Question
-  attr_accessor :num1 :num2 :answer
+  attr_accessor :num1, :num2, :answer
   def initialize
     @num1 = rand(1..20)
     @num2 = rand(1..20)
@@ -8,7 +8,7 @@ class Question
 
   def display_question
   puts "What does #{@num1} plus #{@num2} do?"
-  puts "> "
+  print "> "
   end
 
   def right_answer(input)
