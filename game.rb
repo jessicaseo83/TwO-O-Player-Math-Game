@@ -55,13 +55,3 @@ class Game
 end
 
 game = Game.new
-
-  # - generate question
-  # player_input = get.chomp
-  
-  # - check the answer
-  # if (player_input !== expected) ==> print a messsage(Wrong), reduce player's life, players' lives, and player change
-  # else ==> print a message(right), players' lives, and player change
-  
-  # - when player's life == 0, game over ==> dead()??  
-
